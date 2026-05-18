@@ -1,8 +1,12 @@
 # HAITCH-Locally-Adapted-Version
 Local workflow scripts and configuration for HAITECH 
+
 Note: Please do not use step 9-10, downstream analysis were separately performed outside of HAITCH, so Steps 9–10 are disabled in the provided step-control config.
+
 Data Organization:
+
 HAITCH/data/sub-*/ses-*/dwi/run-*
+
 Data Naming:
 sub-XXX_ses-YY_dwi_run-ZZ.nii.gz
 sub-XXX_ses-YY_dwi_run-ZZ.bvals
