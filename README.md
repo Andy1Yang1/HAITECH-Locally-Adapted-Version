@@ -1,5 +1,5 @@
 # HAITCH-Locally-Adapted-Version
-Local workflow scripts and configuration for HAITECH 
+Local workflow scripts and configuration for HAITCH. HAITCH Github:https://github.com/IntelligentImaging/HAITCH
 
 Note: Please do not use step 9-10, downstream analysis were separately performed outside of HAITCH, so Steps 9–10 are disabled in the provided step-control config.
 
