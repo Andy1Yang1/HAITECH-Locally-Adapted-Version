@@ -62,5 +62,5 @@ Recommended order:
 1. Atlas_to_T2w_and_regional_propogation.sh
 2. Registraiton_refinment_and_labels_to_DWI.sh
 3. ROI_Extract.sh
-4. batch_AF_SLF_tractography.sh
+4. AF_SLF_tractography.sh
 
