@@ -44,6 +44,9 @@ bash run_batch_haitch.sh \
 ./dMRI_HAITCH_Fixed.sh \
 ./user_config_steps1_8.sh \
 sub-XXX \
+
+
+
 2>&1 | tee batch_run_sub-XXX.log
 
 All Subject Example:
@@ -52,3 +55,12 @@ bash run_batch_haitch.sh \
 ./dMRI_HAITCH_Fixed.sh \
 ./user_config_steps1_8.sh \
 2>&1 | tee batch_run_all.log
+
+
+Before running the post motion correction batch, the fetal DWI data must first be registered to the subject T2w image.
+Recommended order:
+1. Atlas_to_T2w_and_regional_propogation.sh
+2. Registraiton_refinment_and_labels_to_DWI.sh
+3. ROI_Extract.sh
+4. batch_AF_SLF_tractography.sh
+
